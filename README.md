@@ -1,11 +1,18 @@
 # welcome
 
-https://codefeels.github.io/
+codefeels
 
-work rants
 
 ## deploy
 
 ```
 yarn deploy
 ```
+
+## dev
+
+```
+yarn dev
+```
+
+Starts locally on http://localhost:3000
