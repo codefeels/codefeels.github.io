@@ -1,0 +1,42 @@
+import Layout from "../components/Layout"
+
+
+# Waiting for feedback
+
+Sometimes, basically removing the enhancement, or disabling it, will fix it
+
+So, I oftentimes will make a PR to this effect and say, "here is a fix, it
+basically removes the enhancement, and fixes a bug. This is a bug users
+definitely will definitely run into, so we should probably merge this and
+release it so that they don't run into it". what I normally get in response to
+this is crickets
+
+I can guess at some reasons why my coworkers are avoiding this issue maybe. For
+example
+
+- they don't want to "duplicate work" by undoing the enhancement on the master
+  branch (and later redoing it)
+
+- they have pride in their feature and don't want to see it undone
+
+- they are trying to be sensitive to the feelings of the person who originally
+  developed the enhancement, and avoid undoing it
+
+- they are not "satisfied" with the PR that removes the enhancement, and would
+  rather see a fix to the enhancement
+
+The reality though is there is often very little feedback on these PRs that I
+make, so I just have to sit around with anxiety. There are currently at least 3
+of these on my codebase from enhancements I did not make, but which I created
+fixes for that basically rollback portions of these enhancements. Oftentimes
+took me pretty deep debugging to even figure out that one weird enhancement had
+such a weird knock on effect to create bug X and so with the silence from my
+team, i feel unappreciated in addition to all this.
+
+This is, perhaps, not really unique to my particular scenario. The feelings
+that I get from this, anxiety and feeling unappreciated, can happen in many
+other scenarios, exacerbated by remote work, pandemic, team culture, etc. I
+hope to work to make things better somehow though
+
+
+export default ({ children }) => <Layout>{children}</Layout>
