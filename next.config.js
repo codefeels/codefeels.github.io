@@ -1,6 +1,11 @@
-const withMDX = require("@next/mdx")({
-  extension: /\.mdx?$/,
-});
-module.exports = withMDX({
-  pageExtensions: ["js", "jsx", "md", "mdx"],
-});
+module.exports = {
+  reactStrictMode: true,
+  swcMinify: true,
+  productionBrowserSourceMaps: true,
+  pageExtensions: ['js', 'jsx', 'ts', 'tsx'],
+
+  images: {
+    loader: 'akamai',
+    path: '/',
+  },
+}
