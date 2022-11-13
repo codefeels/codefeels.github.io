@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Code feels</title>
+        <link>https://codefeels.github.io</link>
+        <description>Blog by Code Feels</description>
+        <lastBuildDate>Sun, 13 Nov 2022 23:06:09 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <copyright>n/a</copyright>
+        <item>
+            <title><![CDATA[Parallels]]></title>
+            <link>https://codefeels.github.io/posts/2022-11-13-parallels</link>
+            <guid>https://codefeels.github.io/posts/2022-11-13-parallels</guid>
+            <pubDate>Sun, 13 Nov 2022 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>Test</p>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Waiting for feedback]]></title>
+            <link>https://codefeels.github.io/posts/2021-12-07-waiting</link>
+            <guid>https://codefeels.github.io/posts/2021-12-07-waiting</guid>
+            <pubDate>Mon, 07 Dec 2020 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<p>Sometimes, basically removing the enhancement, or disabling it, will fix it</p>
+<p>So, I oftentimes will make a PR to this effect and say, "here is a fix, it
+basically removes the enhancement, and fixes a bug. This is a bug users
+definitely will definitely run into, so we should probably merge this and
+release it so that they don't run into it". what I normally get in response to
+this is crickets</p>
+<p>I can guess at some reasons why my coworkers are avoiding this issue maybe. For
+example</p>
+<ul>
+<li>
+<p>they don't want to "duplicate work" by undoing the enhancement on the master
+branch (and later redoing it)</p>
+</li>
+<li>
+<p>they have pride in their feature and don't want to see it undone</p>
+</li>
+<li>
+<p>they are trying to be sensitive to the feelings of the person who originally
+developed the enhancement, and avoid undoing it</p>
+</li>
+<li>
+<p>they are not "satisfied" with the PR that removes the enhancement, and would
+rather see a fix to the enhancement</p>
+</li>
+</ul>
+<p>The reality though is there is often very little feedback on these PRs that I
+make, so I just have to sit around with anxiety. There are currently at least 3
+of these on my codebase from enhancements I did not make, but which I created
+fixes for that basically rollback portions of these enhancements. Oftentimes
+took me pretty deep debugging to even figure out that one weird enhancement had
+such a weird knock on effect to create bug X and so with the silence from my
+team, i feel unappreciated in addition to all this.</p>
+<p>This is, perhaps, not really unique to my particular scenario. The feelings
+that I get from this, anxiety and feeling unappreciated, can happen in many
+other scenarios, exacerbated by remote work, pandemic, team culture, etc. I
+hope to work to make things better somehow though</p>]]></content:encoded>
+        </item>
+    </channel>
+</rss>
